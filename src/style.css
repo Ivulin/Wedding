@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: title-font;
+  src: url(./asset/fonts/Brighter_Miracles.ttf);
+}
+
+html {
+  font-family: 'Calibri';
+}
+a{
+  text-decoration: none;
+  color:black
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.my-container {
+  place-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url(./asset/images/wooden-background-with-flowers.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (orientation: portrait) {
+    .my-container {
+    place-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(./asset/images/wooden-background-with-flowers-portrait.jpg);   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

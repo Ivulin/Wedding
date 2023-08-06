@@ -1,0 +1,477 @@
+@media screen and (orientation: landscape) {
+    /*Invitation*/
+    .main {
+        display: grid;
+        background-color: white;
+        max-width: 50vw;
+        min-height: 89vh;
+        max-height: 89vh;
+        left: 40%;
+        margin: 3vh 3vh 3vh 3vh;
+        position: relative;
+        border-radius: 3px 3px 3px 3px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .invitation-header {
+        font-family: 'title-font';
+        width: 100%;
+        position: relative;
+        height: fit-content;
+    }
+
+    .invitation-header>.name {
+        font-size: 10vh;
+        margin: 0;
+    }
+
+    .name.famele-name {
+        padding-top: 5%;
+        padding-left: 10%;
+        text-align: left;
+    }
+
+    .name.male-name {
+        padding-bottom: 2%;
+        padding-right: 10%;
+        text-align: right;
+    }
+
+    .inner-container {
+        display: block;
+        max-height: 89vh;
+        min-height: 89vh;
+    }
+
+    .invitation-header>.preposition {
+        font-size: 6vh;
+        margin: 0;
+        position: absolute;
+        top: 34%;
+        left: 52%;
+    }
+
+    .invitation-body {
+        min-width: 100%;
+        font-family: 'Monotype Corsiva';
+        display: inline-block;
+        min-width: 100%;
+        text-align: center;
+        font-size: 2.8vh;
+    }
+
+    .invitation-body>p {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    p>h2 {
+        margin: 0%;
+    }
+
+    .invitation-footer {
+        min-width: 100%;
+        font-family: 'Monotype Corsiva';
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        padding-bottom: 1%;
+        font-size: 2.8vh;
+    }
+
+    .chalet {
+        overflow-y: auto;
+        min-height: 89vh;
+        max-height: 89vh;
+    }
+
+    .title {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 5vh;
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .galery {
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .image-slide {
+        max-width: 40vw;
+    }
+
+    .carousel .carousel-indicators {
+        bottom: -5vh;
+    }
+
+    .facilities {
+        font-size: 4vh;
+        font-family: 'Calibri';
+        padding: 0% 5%;
+        justify-content: center;
+    }
+
+    .icon-title {
+        font-size: 2vh;
+        font-weight: 600;
+    }
+
+    .facilities .item-list {
+        display: grid;
+        grid-auto-flow: dense;
+        grid-template-columns: repeat(auto-fit, 9.8vh);
+        justify-content: center;
+    }
+
+    .facilities .item {
+        text-align: center;
+        display: grid;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        color: #a9a9a9;
+        border-radius: 4px;
+        width: 8vh;
+        height: 8vh;
+        padding: 0.5vh;
+        margin: 1vh;
+        box-sizing: border-box;
+    }
+
+    .facilities .warning-towel-ico {
+        text-align: center;
+        display: grid;
+        border: 1px solid rgb(255, 0, 0, 0.5);
+        color: rgb(255, 0, 0, 0.5);
+        border-radius: 4px;
+        width: 8vh;
+        height: 8vh;
+        padding: 0.5vh;
+        margin: 1vh;
+        box-sizing: border-box;
+    }
+
+    .fa-my-dish-washer {
+        background: url('../../asset/images/dish-washer.svg') no-repeat 0 0;
+    }
+
+    .fa-my-parking {
+        background: url('../../asset/images/parking.svg') no-repeat 0 0;
+        background-size: contain;
+    }
+
+    .fa-my-microwave {
+        background: url('../../asset/images/microwave.svg') no-repeat 0 0;
+    }
+
+    .fa-my-oven {
+        background: url('../../asset/images/oven.svg') no-repeat 0 0;
+    }
+
+    .fa-my-grill {
+        background: url('../../asset/images/grill-svgrepo-com.svg') no-repeat 0 0;
+        background-size: contain;
+    }
+
+    .fa-my-sauna {
+        background: url('../../asset/images/sauna-svgrepo-com.svg') no-repeat 0 0;
+        background-size: contain;
+    }
+
+    .fa-my-towel {
+        background: url('../../asset/images/towel-svgrepo-com.svg') no-repeat 0 0;
+        background-size: contain;
+    }
+
+    .warning-towel {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        color: #ff000080;
+        font-size: 1.5vw;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    .warning-towel-label {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .my-column {
+        width: 50%;
+        float: left;
+        padding: 0.5vh;
+    }
+
+    .left {
+        text-align: right;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .my-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .location {
+        text-align: center;
+        padding: 4vh;
+    }
+
+    .map {
+        width: 35vw;
+        height: 50vh;
+    }
+
+    .center {
+        text-align: center;
+        font-family: 'Calibri';
+    }
+
+    .villa {
+        width: 60vh;
+    }
+
+    .scroll-y {
+        overflow-y: scroll;
+    }
+}
+
+
+@media screen and (orientation: portrait) {
+    /*Invitation*/
+    .main {
+        display: grid;
+        background-color: white;
+        max-width: 90vw;
+        min-height: 64vh;
+        max-height: 64vh;
+        bottom: 40%;
+        left: 0;
+        margin: 3vh 3vh 3vh 3vh;
+        position: relative;
+        border-radius: 3px 3px 3px 3px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .invitation-header {
+        font-family: 'title-font';
+        width: 100%;
+        position: relative;
+        height: fit-content;
+    }
+
+    .invitation-header>.name {
+        font-size: 6vh;
+        margin: 0;
+    }
+
+    .name.famele-name {
+        padding-top: 5%;
+        padding-left: 10%;
+        text-align: left;
+    }
+
+    .name.male-name {
+        padding-bottom: 2%;
+        padding-right: 10%;
+        text-align: right;
+    }
+
+    .inner-container {
+        display: block;
+        max-height: 64vh;
+        min-height: 64vh;
+    }
+
+    .invitation-header>.preposition {
+        font-size: 4vh;
+        margin: 0;
+        top: 7vh;
+        left: 48vw;
+        position: absolute;
+    }
+
+    .invitation-body {
+        min-width: 100%;
+        font-family: 'Monotype Corsiva';
+        display: inline-block;
+        min-width: 100%;
+        text-align: center;
+        font-size: 2.6vh;
+    }
+
+    .invitation-body>p {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    p>h2 {
+        margin: 0%;
+    }
+
+    .invitation-footer {
+        min-width: 100%;
+        font-family: 'Monotype Corsiva';
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        padding-bottom: 1%;
+        font-size: 2.6vh;
+    }
+
+    .chalet {
+        overflow-y: auto;
+        min-height: 64vh;
+        max-height: 64vh;
+    }
+
+    .title {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 5vh;
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .galery {
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .image-slide {
+        max-width: 40vw;
+    }
+
+    .carousel .carousel-indicators {
+        bottom: -5vh;
+    }
+
+    .facilities {
+        font-size: 4vh;
+        font-family: 'Calibri';
+        padding: 0% 5%;
+    }
+
+    .icon-title {
+        font-size: 2vh;
+        font-weight: 600;
+    }
+
+    .facilities .item-list {
+        display: grid;
+        grid-auto-flow: dense;
+        grid-template-columns: repeat(auto-fit, 9.8vh);
+        justify-content: center;
+    }
+
+    .facilities .item {
+        text-align: center;
+        display: grid;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        color: #a9a9a9;
+        border-radius: 4px;
+        width: 8vh;
+        height: 8vh;
+        padding: 0.5vh;
+        margin: 1vh;
+        box-sizing: border-box;
+    }
+
+    .facilities .warning-towel-ico {
+        text-align: center;
+        display: grid;
+        border: 1px solid rgb(255, 0, 0, 0.5);
+        color: rgb(255, 0, 0, 0.5);
+        border-radius: 4px;
+        width: 8vh;
+        height: 8vh;
+        padding: 0.5vh;
+        margin: 1vh;
+        box-sizing: border-box;
+    }
+
+    .fa-my-dish-washer {
+        background: url('../../asset/images/dish-washer.svg') no-repeat 0 0;
+    }
+
+    .fa-my-parking {
+        background: url('../../asset/images/parking.svg') no-repeat 0 0;
+        background-size: contain;
+    }
+
+    .fa-my-microwave {
+        background: url('../../asset/images/microwave.svg') no-repeat 0 0;
+    }
+
+    .fa-my-oven {
+        background: url('../../asset/images/oven.svg') no-repeat 0 0;
+    }
+
+    .fa-my-grill {
+        background: url('../../asset/images/grill-svgrepo-com.svg') no-repeat 0 0;
+        background-size: contain;
+    }
+
+    .fa-my-sauna {
+        background: url('../../asset/images/sauna-svgrepo-com.svg') no-repeat 0 0;
+        background-size: contain;
+    }
+
+    .fa-my-towel {
+        background: url('../../asset/images/towel-svgrepo-com.svg') no-repeat 0 0;
+        background-size: contain;
+    }
+
+    .warning-towel {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        color: #ff000080;
+        font-size: 3.5vw;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    .warning-towel-label {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .my-column {
+        width: 50%;
+        float: left;
+        padding: 0.5vh;
+    }
+
+    .left {
+        text-align: right;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .my-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .location {
+        text-align: center;
+        padding: 4vh;
+    }
+
+    .map {
+        width: 60vw;
+        height: 50vh;
+    }
+}

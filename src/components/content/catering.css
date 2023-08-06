@@ -1,0 +1,137 @@
+@media screen and (orientation: landscape) {
+    .inner-container {
+        display: block;
+        max-height: 89vh;
+        min-height: 89vh;
+    }
+
+    p>h2 {
+        margin: 0%;
+    }
+
+    .title {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 5vh;
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .galery {
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .image-slide {
+        max-width: 40vw;
+    }
+
+    .carousel .carousel-indicators {
+        bottom: -5vh;
+    }
+
+    .icon-title {
+        font-size: 2vh;
+        font-weight: 600;
+    }
+
+    .left {
+        text-align: right;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .center {
+        text-align: center;
+        font-family: 'Calibri';
+    }
+
+    .scroll-y {
+        overflow-y: scroll;
+    }
+
+    .paragraph {
+        padding: 2vh 3vw 2vh 3vw;
+    }
+
+    .my-row-flex {
+        display: flex;
+    }
+
+    .point {
+        margin: 0.5vh;
+        min-width: 5vh;
+        min-height: 5vh;
+        font-weight: bold;
+        border: double;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .point-title{
+        font-weight: bold;
+        align-items: center;
+    }
+}
+
+
+@media screen and (orientation: portrait) {
+    .inner-container {
+        display: block;
+        max-height: 64vh;
+        min-height: 64vh;
+    }
+
+    p>h2 {
+        margin: 0%;
+    }
+
+    .title {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 5vh;
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .galery {
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .image-slide {
+        max-width: 40vw;
+    }
+
+    .carousel .carousel-indicators {
+        bottom: -5vh;
+    }
+
+    .icon-title {
+        font-size: 2vh;
+        font-weight: 600;
+    }
+
+    .my-column {
+        width: 50%;
+        float: left;
+        padding: 0.5vh;
+    }
+
+    .left {
+        text-align: right;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .my-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

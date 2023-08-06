@@ -1,0 +1,83 @@
+.tabs {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tabs .icon {
+	display: none;
+}
+
+.tab {
+	padding: 0.5vw 0.5vw;
+	cursor: pointer;
+	border-radius: 10px 10px 5px 5px;
+	text-decoration: none;
+	color: antiquewhite;
+	font-weight: bold;
+	font-size: 2vh;
+}
+
+.tab+.tab {
+	margin-left: 1vh;
+}
+
+.tab.active {
+	background-color: white;
+	color: rgb(43, 14, 0);
+	font-weight: bold;
+}
+
+.fa-home {
+	color: antiquewhite;
+	padding-top: 1.3vh;
+}
+
+@media  screen and (orientation: portrait) {
+	.tabs {
+		display: block;
+		justify-content: center;
+		width: 100vw;
+		padding-left: 2vw;
+		padding-right: 2vw;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.tabs a:not(:first-child) {
+		display: none;
+	}
+
+	.tabs a.icon {
+		float: right;
+		display: block;
+		color: antiquewhite;
+		right: 2vw;
+		top: 0.5vh;
+		position: absolute;
+	}
+
+	.tabs.responsive {
+		position: relative;
+	}
+
+	.tabs.responsive a.icon {
+		position: absolute;
+		color: antiquewhite;
+		right: 2vw;
+		top: 0.5vh;
+	}
+
+	.tab.fa.fa-home.active {
+		background-color: white;
+		color: rgb(43, 14, 0);
+		font-weight: bold;
+		margin-right: 5vw;
+	}
+
+	.tabs.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
