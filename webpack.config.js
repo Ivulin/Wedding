@@ -1,3 +1,4 @@
+const path = require("path");
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -12,6 +13,7 @@ module.exports = {
   },
   
   output: {
+    path: path.resolve(__dirname, "srv/app"),
     filename: 'bundle-[contenthash:6].js',
     publicPath: '/',
     clean: true,
