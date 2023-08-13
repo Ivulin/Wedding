@@ -1,17 +1,18 @@
 import React, { useState} from 'react';
 import {useNavigate} from "react-router-dom"
-import PropTypes from 'prop-types';
-import {useSHA256} from "../../hooks/useHash";
+import {getSHA256} from "../../hooks/useHash";
 import './style.css';
 
-function loginUser({ username, password }) {
-  return useSHA256(username.concat(password)).toString();
-}
 
-export default function Login({ setToken }) {
-  const [username, setUserName] = useState();
-  const [password, setPassword] = useState();
+
+const Login = ({ setToken }) => {
+  const [username, setUserName] = useState('');
+  const [password, setPassword] = useState('');
   const navigate = useNavigate();
+
+  const loginUser =({ username, password }) =>{
+    return getSHA256(username.concat(password)).toString();
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,6 +44,4 @@ export default function Login({ setToken }) {
   )
 }
 
-Login.propTypes = {
-  setToken: PropTypes.func.isRequired
-};
+export default Login;

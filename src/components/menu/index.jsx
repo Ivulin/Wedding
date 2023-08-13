@@ -15,13 +15,13 @@ const Menu = ({ tabList }) => {
 	return (
 		<div id="topTabs" className='tabs'>
 			{tabList.map(({ tabName, id, link }) =>
-				<NavLink key={"link_" + id} to={id == 0 ? "/" : '/' + link} className={id == 0 ? "tab fa fa-home" : "tab"} onClick={handleOnClick}>
+				<NavLink key={"link_" + id} to={id === 0 ? "/" : '/' + link} className={id === 0 ? "tab fa fa-home" : "tab"} onClick={handleOnClick}>
 					{tabName}
 				</NavLink>
 			)}
-			<a href="#" className="icon" onClick={handleOnClick}>
+			<div className="icon" onClick={handleOnClick}>
 				<i className="fa fa-bars"></i>
-			</a>
+			</div>
 		</div>
 	);
 }

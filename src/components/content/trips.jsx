@@ -18,7 +18,7 @@ const Trips = () => {
 						<Carousel.Item key={'carousel_trip_' + id}>
 							<img id={'image_' + id}
 								className="image-slide"
-								src={"img/" + src}
+								src={"/images/trips/" + src}
 								alt={alt}
 							/>
 						</Carousel.Item>)}

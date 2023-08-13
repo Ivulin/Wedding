@@ -40,7 +40,7 @@ export const useSessionStorage = (keyName, defaultValue, expiration) => {
           window.localStorage.removeItem(keyName);
 
           window.localStorage.setItem(keyName, JSON.stringify({
-            'timestamp': setTimeToLive(expiration||1800000),
+            'timestamp': setTimeToLive(expiration||1000),//1800000
             'value': defaultValue
            }));
 
@@ -48,7 +48,7 @@ export const useSessionStorage = (keyName, defaultValue, expiration) => {
         }
       } else {
         window.localStorage.setItem(keyName, JSON.stringify({
-          'timestamp': setTimeToLive(expiration||1800000),
+          'timestamp': setTimeToLive(expiration||1000),
           'value': defaultValue
          }));
         return defaultValue;
@@ -60,7 +60,7 @@ export const useSessionStorage = (keyName, defaultValue, expiration) => {
   const setValue = (newValue) => {
     try {
       window.localStorage.setItem(keyName, JSON.stringify({
-        'timestamp': setTimeToLive(expiration||1800000),
+        'timestamp': setTimeToLive(expiration||1000),
         'value': newValue
        }));
     } catch (err) {}

@@ -31,7 +31,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: url(./asset/images/wooden-background-with-flowers.jpg);
+  background-image: url(./../public/images/wooden-background-with-flowers.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url(./asset/images/wooden-background-with-flowers-portrait.jpg);   
+    background-image: url(./../public/images/wooden-background-with-flowers-portrait.jpg);   
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

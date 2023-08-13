@@ -1,9 +1,9 @@
 var CryptoJS = require("crypto-js");
 
-export function useMD5(value){
+export function getMD5(value){
     return CryptoJS.MD5(value);
 };
 
-export function useSHA256(value){
+export function getSHA256(value){
     return CryptoJS.SHA256(value);
 };
