@@ -3,17 +3,27 @@
 * {
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: title-font;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   src: url(./asset/fonts/Brighter_Miracles.ttf);
+  src: url(./asset/fonts/Brighter_Miracles.eot); /* IE9 Compat Modes */
+  src: url(./asset/fonts/Brighter_Miracles.eot#iefix) format('embedded-opentype'), /* IE6-IE8 */
+       url(./asset/fonts/Brighter_Miracles.woff2) format('woff2'), /* Super Modern Browsers */
+       url(./asset/fonts/Brighter_Miracles.woff) format('woff'), /* Pretty Modern Browsers */
+       url(./asset/fonts/Brighter_Miracles.ttf)  format('truetype'), /* Safari, Android, iOS */
+       url(./asset/fonts/Brighter_Miracles.svg#svgFontName) format('svg'); /* Legacy iOS */
 }
 
 html {
   font-family: 'Calibri';
 }
-a{
+
+a {
   text-decoration: none;
-  color:black
+  color: black
 }
 
 body {
@@ -24,28 +34,30 @@ body {
   overflow: hidden;
 }
 
-.my-container {
-  place-content: center;
-  min-height: 100vh;
-  min-width: 100vw;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-image: url(./../public/images/wooden-background-with-flowers.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-@media screen and (orientation: portrait) {
-    .my-container {
+@media screen and (orientation: landscape) {
+  .my-container {
     place-content: center;
     min-height: 100vh;
     min-width: 100vw;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url(./../public/images/wooden-background-with-flowers-portrait.jpg);   
+    background-image: url(./../public/images/wooden-background-with-flowers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .my-container {
+    place-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(./../public/images/wooden-background-with-flowers-portrait.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

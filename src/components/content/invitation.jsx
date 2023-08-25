@@ -14,7 +14,7 @@ const Invitation = () => {
 				<p>oznamují všemu světu, jednu prostou krásnou větu:</p>
 				<h2>„Budeme se brát"</h2>
 				<p>Zatím na oddavky nespěcháme, až v dubnu naši svatbu přichystáme.</p>
-				<p>Za místo činnu, vybrali jsme <b>Křížovu vilu</b>.</p>
+				<p>Za místo činu, vybrali jsme <b>Křížovu vilu</b>.</p>
 				<p>Datum, které se blíží, je <b>27. dubna 2024</b></p>
 			</div>
 			<div className='invitation-footer'>

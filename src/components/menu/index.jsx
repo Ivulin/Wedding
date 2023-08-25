@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom'
 import './style.css';
 
 const Menu = ({ tabList }) => {
-	const handleOnClick=()=>{
+	const handleOnClick = (event) => {
 		var x = document.getElementById("topTabs");
-		if (x.className === "tabs") {
+		if (x.className === "tabs" && event.target.id !== "0") {
 			x.className += " responsive";
 		} else {
 			x.className = "tabs";
@@ -15,7 +15,7 @@ const Menu = ({ tabList }) => {
 	return (
 		<div id="topTabs" className='tabs'>
 			{tabList.map(({ tabName, id, link }) =>
-				<NavLink key={"link_" + id} to={id === 0 ? "/" : '/' + link} className={id === 0 ? "tab fa fa-home" : "tab"} onClick={handleOnClick}>
+				<NavLink id={id} key={"link_" + id} to={id === 0 ? "/" : '/' + link} className={id === 0 ? "tab fa fa-home" : "tab"} onClick={handleOnClick}>
 					{tabName}
 				</NavLink>
 			)}

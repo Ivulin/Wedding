@@ -65,8 +65,10 @@
         margin-bottom: 2%;
     }
 
-    p>h2 {
+    div>h2 {
         margin: 0%;
+        font-size: -webkit-xxx-large;
+        font-size: xxx-large;
     }
 
     .invitation-footer {
@@ -343,8 +345,10 @@
         margin-bottom: 2%;
     }
 
-    p>h2 {
+    div>h2 {
         margin: 0%;
+        font-size: -webkit-xxx-large;
+        font-size: xxx-large;
     }
 
     .invitation-footer {

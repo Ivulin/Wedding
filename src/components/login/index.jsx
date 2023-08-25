@@ -5,7 +5,7 @@ import './style.css';
 
 
 
-const Login = ({ setToken }) => {
+const Login = ({ setToken, isError ,setLoginCounter}) => {
   const [username, setUserName] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
@@ -22,6 +22,7 @@ const Login = ({ setToken }) => {
     });
     setToken(token);
     navigate('/');
+    setLoginCounter((count)=>(count+1));
   }
 
   return (
@@ -37,6 +38,9 @@ const Login = ({ setToken }) => {
         </div>
         <div>
           <button type="submit">Přihlásit</button>
+        </div>
+        <div>
+          {isError?<label className="error_message">Uživateleké jmeno nebo heslo není správné.</label>:null}       
         </div>
       </form>
     </div>

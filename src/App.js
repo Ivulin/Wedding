@@ -9,6 +9,7 @@ import Login from './components/login';
 import './App.css';
 
 const App = () => {
+  const [loginCounter, setLoginCounter] = useState(0);
   const [token, setToken] = useToken();
   const [allowedTabs, setAllowedTabs] = useState([]);
 
@@ -27,7 +28,7 @@ const App = () => {
           <Route key={"link_9"} path="*" element={<Content tabId={0} tabName={''} tabLink={''} />} />
         </Routes>
         {
-          (token === undefined || token === null || allowedTabs.length === 0) ? <Login setToken={setToken} /> : null
+          (token === undefined || token === null || allowedTabs.length === 0) ? <Login setToken={setToken} isError={loginCounter > 0 && allowedTabs.length === 0} setLoginCounter={setLoginCounter} /> : null
         }
       </BrowserRouter>
     </div>

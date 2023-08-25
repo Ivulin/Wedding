@@ -1,40 +1,42 @@
-.tabs {
-	display: flex;
-	justify-content: center;
-	width: 100vw;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+@media screen and (orientation: landscape) {
+	.tabs {
+		display: flex;
+		justify-content: center;
+		width: 100vw;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.tabs .icon {
+		display: none;
+	}
+
+	.tab {
+		padding: 0.5vw 0.5vw;
+		cursor: pointer;
+		border-radius: 10px 10px 5px 5px;
+		text-decoration: none;
+		color: antiquewhite;
+		font-weight: bold;
+		font-size: 2vh;
+	}
+
+	.tab+.tab {
+		margin-left: 1vh;
+	}
+
+	.tab.active {
+		background-color: white;
+		color: rgb(43, 14, 0);
+		font-weight: bold;
+	}
+
+	.fa-home {
+		color: antiquewhite;
+		padding-top: 1.3vh;
+	}
 }
 
-.tabs .icon {
-	display: none;
-}
-
-.tab {
-	padding: 0.5vw 0.5vw;
-	cursor: pointer;
-	border-radius: 10px 10px 5px 5px;
-	text-decoration: none;
-	color: antiquewhite;
-	font-weight: bold;
-	font-size: 2vh;
-}
-
-.tab+.tab {
-	margin-left: 1vh;
-}
-
-.tab.active {
-	background-color: white;
-	color: rgb(43, 14, 0);
-	font-weight: bold;
-}
-
-.fa-home {
-	color: antiquewhite;
-	padding-top: 1.3vh;
-}
-
-@media  screen and (orientation: portrait) {
+@media screen and (orientation: portrait) {
 	.tabs {
 		display: block;
 		justify-content: center;
@@ -44,17 +46,43 @@
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	}
 
+	.tab {
+		padding: 0.5vw 0.5vw;
+		cursor: pointer;
+		border-radius: 10px 10px 5px 5px;
+		text-decoration: none;
+		color: antiquewhite;
+		font-weight: bold;
+		font-size: 2vh;
+	}
+
+	.tab.active {
+		background-color: white;
+		color: rgb(43, 14, 0);
+		font-weight: bold;
+	}
+
+	.tab+.tab {
+		margin-left: 1vh;
+	}
+
+	.fa-home {
+		color: antiquewhite;
+		padding-top: 1.3vh;
+	}
+
 	.tabs a:not(:first-child) {
 		display: none;
 	}
 
-	.tabs a.icon {
+	.tabs div.icon {
 		float: right;
 		display: block;
 		color: antiquewhite;
 		right: 2vw;
-		top: 0.5vh;
+		top: 0vh;
 		position: absolute;
+		font-size: 2vh;
 	}
 
 	.tabs.responsive {

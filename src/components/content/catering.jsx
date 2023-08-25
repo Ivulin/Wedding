@@ -13,7 +13,7 @@ const Catering = () => {
 			</div>
 			<div className='info'>
 				<div className='title'>
-					<p>30.4.2023 - večerní Grillování </p>
+					<p>30.4.2023 - večerní grilování </p>
 				</div>
 				<div className='line'>Meny bude uveřejněno před konáním akce.</div>
 			</div>
