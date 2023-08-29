@@ -34,7 +34,7 @@
 		border: 2px solid darkgrey;
 		color: #686868;
 		padding: 1vh 1vw 1vh 1vw;
-		;
+		background-color: rgb(239, 239, 239);
 	}
 
 	.txt,
@@ -89,7 +89,7 @@
 		border: 2px solid darkgrey;
 		color: #686868;
 		padding: 1vh 1vw 1vh 1vw;
-		;
+		background-color: rgb(239, 239, 239);
 	}
 
 	.txt,
