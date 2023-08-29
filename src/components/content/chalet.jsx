@@ -8,7 +8,7 @@ const Chalet = () => {
 	return (
 		<div className='chalet'>
 			<div className='title'>
-				<p><a href='https://www.belvilla.co.uk/AT-5741-92?utm_medium=referral-l&utm_source=copylink&utm_campaign=sitebutton'>Neukirchen am Großvenediger Salzburg</a></p>
+				<p><a href='https://www.belvilla.co.uk/AT-5741-92?utm_medium=referral-l&utm_source=copylink&utm_campaign=sitebutton' target="_blank" rel="noreferrer" >Neukirchen am Großvenediger Salzburg</a></p>
 			</div>
 			<div className='galery'>
 				<Carousel variant='dark'>
