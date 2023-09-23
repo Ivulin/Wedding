@@ -9,7 +9,7 @@ const TravelService = () => {
 				<p>Obsazení aut</p>
 			</div>
 			<div className='info'>
-				Informace o obsazená aut budou uveřejněny v průběhu roku.
+				Informace o obsazení aut budou uveřejněny v průběhu roku.
 			</div>
 		</div>
 	);

@@ -11,7 +11,7 @@ const Invitation = () => {
 				<p className='name male-name'>Milan Řezáč</p>
 			</div>
 			<div className='invitation-body'>
-				<p>oznamují všemu světu, jednu prostou krásnou větu:</p>
+				<p>oznamují všemu světu jednu prostou krásnou větu:</p>
 				<h2>„Budeme se brát"</h2>
 				<p>Zatím na oddavky nespěcháme, až v dubnu naši svatbu přichystáme.</p>
 				<p>Za místo činu, vybrali jsme <b>Křížovu vilu</b>.</p>
