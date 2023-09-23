@@ -10,6 +10,9 @@ const Chalet = () => {
 			<div className='title'>
 				<p><a href='https://www.belvilla.co.uk/AT-5741-92?utm_medium=referral-l&utm_source=copylink&utm_campaign=sitebutton' target="_blank" rel="noreferrer" >Neukirchen am Großvenediger Salzburg</a></p>
 			</div>
+			<div className='title'>
+				<b>29.4. - 3.5.</b>
+			</div>
 			<div className='galery'>
 				<Carousel variant='dark'>
 					{images.map(({ id, src, alt }) =>
@@ -33,38 +36,38 @@ const Chalet = () => {
 				</div>
 			</div>
 			<div className='facilities'>
-					<div className='item-list'>
-						<div className='item'>
-							<span className="fa fa-bed"></span>
-							<span className="icon-title">24x</span>
-						</div>
-						<div className='item'>
-							<span className="fa fa-bath"></span>
-							<span className="icon-title">8x</span>
-						</div>
-						<div className='item'>
-							<span className="fa fa-wifi"></span>
-							<span className="icon-title">WiFi</span>
-						</div>
-						<div className='item'>
-							<span className="fa-my-grill"></span>
-						</div>
-						<div className='item'>
-							<span className="fa-my-dish-washer"></span>
-						</div>
-						<div className='item'>
-							<span className="fa-my-parking"></span>
-						</div>
-						<div className='item'>
-							<span className="fa-my-microwave"></span>
-						</div>
-						<div className='item'>
-							<span className="fa-my-oven"></span>
-						</div>
-						<div className='item'>
-							<span className="fa-my-sauna"></span>
-						</div>
+				<div className='item-list'>
+					<div className='item'>
+						<span className="fa fa-bed"></span>
+						<span className="icon-title">24x</span>
 					</div>
+					<div className='item'>
+						<span className="fa fa-bath"></span>
+						<span className="icon-title">8x</span>
+					</div>
+					<div className='item'>
+						<span className="fa fa-wifi"></span>
+						<span className="icon-title">WiFi</span>
+					</div>
+					<div className='item'>
+						<span className="fa-my-grill"></span>
+					</div>
+					<div className='item'>
+						<span className="fa-my-dish-washer"></span>
+					</div>
+					<div className='item'>
+						<span className="fa-my-parking"></span>
+					</div>
+					<div className='item'>
+						<span className="fa-my-microwave"></span>
+					</div>
+					<div className='item'>
+						<span className="fa-my-oven"></span>
+					</div>
+					<div className='item'>
+						<span className="fa-my-sauna"></span>
+					</div>
+				</div>
 				<div className='warning-towel'>
 					<div className='warning-towel-ico'>
 						<span className="fa-my-towel"></span>
