@@ -1,4 +1,5 @@
 @media screen and (orientation: landscape) {
+
     /*Invitation*/
     .main {
         display: grid;
@@ -58,6 +59,15 @@
         min-width: 100%;
         text-align: center;
         font-size: 2.8vh;
+    }
+
+    .invitation-body-eng {
+        min-width: 100%;
+        font-family: 'Monotype Corsiva';
+        display: inline-block;
+        min-width: 100%;
+        text-align: center;
+        font-size: 2.4vh;
     }
 
     .invitation-body>p {
@@ -215,7 +225,7 @@
         text-align: left;
     }
 
-    .block{
+    .block {
         text-align: justify;
     }
 
@@ -267,17 +277,61 @@
         vertical-align: middle;
     }
 
-    .point-title{
+    .point-title {
         font-weight: bold;
         margin: 0.5vh;
     }
-    .cards{
+
+    .cards {
         padding: 1vh 2vw 1vh 2vw;
+    }
+
+    .link_icon {
+        padding: 1vh 0.5vw 1vh 0.5vw;
+        font-size: medium;
+    }
+
+    .catering-title {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 4vh;
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .small-title {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 3vh;
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .link-text {
+        font-size: 2vh;
+    }
+
+    .my-column-ceremony {
+        width: 50%;
+        float: left;
+        padding: 0.5vh 2% 0.5vh 0.5vw;
+    }
+
+    .warning {
+        color: #ff0000bb;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .item-child{
+        padding: 0.5vh 2% 0.5vh 0.5vw;
     }
 }
 
 
 @media screen and (orientation: portrait) {
+
     /*Invitation*/
     .main {
         display: grid;
@@ -338,6 +392,15 @@
         min-width: 100%;
         text-align: center;
         font-size: 2.6vh;
+    }
+
+    .invitation-body-eng {
+        min-width: 100%;
+        font-family: 'Monotype Corsiva';
+        display: inline-block;
+        min-width: 100%;
+        text-align: center;
+        font-size: 2.2vh;
     }
 
     .invitation-body>p {
@@ -486,6 +549,12 @@
         padding: 0.5vh;
     }
 
+    .my-column-ceremony {
+        width: 50%;
+        float: left;
+        padding: 0.5vh 2% 0.5vh 0.5vw;
+    }
+
     .left {
         text-align: right;
     }
@@ -494,10 +563,10 @@
         text-align: left;
     }
 
-    .block{
+    .block {
         text-align: justify;
     }
-    
+
     .my-row:after {
         content: "";
         display: table;
@@ -507,7 +576,7 @@
     .villa {
         width: 80vw;
     }
-    
+
     .scroll-y {
         overflow-y: scroll;
     }
@@ -527,7 +596,12 @@
         height: 50vh;
     }
 
-    .cards{
+    .cards {
         padding: 1vh 2vw 1vh 2vw;
+    }
+
+    .link_icon {
+        padding: 1vh 0.5vw 1vh 0.5vw;
+        font-size: medium;
     }
 }

@@ -12,6 +12,7 @@ const Login = ({ setToken, isError ,setLoginCounter}) => {
 
   const loginUser =({ username, password }) =>{
     return getSHA256(username.concat(password)).toString();
+    
   }
 
   const handleSubmit = (e) => {

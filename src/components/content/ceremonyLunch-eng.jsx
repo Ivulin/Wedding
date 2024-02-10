@@ -7,7 +7,7 @@ const CeremonyLunch = () => {
 	return (
 		<div className='inner-container center scroll-y'>
 			<div className='title'>
-				<p>Reastaurace Orloj v Žatci</p>
+				<p>Restaurant Orloj in Žatec</p>
 			</div>
 			<div className="galery">
 				<Carousel variant='dark'>
@@ -53,51 +53,57 @@ const CeremonyLunch = () => {
 				</a>
 			</div>
 			<div className='title'>
-				<p>Svatební program</p>
+				<p>Wedding program</p>
 			</div>
-			<div className='info'>
+			<div className='info center'>
 				<div className='my-row'>
-					<p>(Novomanželé si vyhrazují právo na změnu programu.)</p>
+					<p>(The Newlyweds have the right to change the program.)</p>
 				</div>
 				<div className='my-row'>
 					<div className='my-column-ceremony left'><b>11:00</b></div>
-					<div className='my-column-ceremony right'><b>Obřad</b></div>
+					<div className='my-column-ceremony right'><b>Wedding Ceremony</b></div>
 				</div>
 				<div className='my-row'>
 					<div className='my-column-ceremony left'><b>11:30</b></div>
-					<div className='my-column-ceremony right'><b>Společné focení</b></div>
+					<div className='my-column-ceremony right'><b>Photoshooting</b></div>
 				</div>
 				<div className='my-row'>
 					<div className='my-column-ceremony left'><b>13:00</b></div>
-					<div className='my-column-ceremony right'><b>Svatební oběd</b></div>
+					<div className='my-column-ceremony right'><b>Wedding lunch</b></div>
+				</div>
+				<div className='my-row'>
 					<div className='my-column-ceremony left'></div>
-					<div className='my-column-ceremony right'>Hovězí vývar s masem, nudlemi a játrovými knedlíčky</div>
+					<div className='my-column-ceremony right'>Beef broth with meat, noodles and liver dumplings</div>
+				</div>
+				<div className='my-row'>
 					<div className='my-column-ceremony left'></div>
-					<div className='my-column-ceremony right'>Svíčková na smetaně s domácím karlovarským knedlíkem</div>
+					<div className='my-column-ceremony right'>Roast sirloin in sour cream sauce with dumpling</div>
 				</div>
 				<div className='my-row'>
 					<div className='my-column-ceremony left'><b>14:30</b></div>
-					<div className='my-column-ceremony right'><b>Krájení svatebního dortu</b></div>
+					<div className='my-column-ceremony right'><b>Cutting the Wedding cake</b></div>
+				</div>
+				<div className='my-row'>
 					<div className='my-column-ceremony left'></div>
-					<div className='my-column-ceremony right'>(podáváno s kávou)</div>
+					<div className='my-column-ceremony right'>(served with coffee)</div>
 				</div>
 				<div className='my-row'>
 					<div className='my-column-ceremony left'><b>15:30</b></div>
-					<div className='my-column-ceremony right'><b>Házení svatební kytice</b></div>
+					<div className='my-column-ceremony right'><b>Throwing a wedding bouquet</b></div>
 				</div>
 				<div className='my-row'>
 					<div className='my-column-ceremony left'><b>16:00</b></div>
-					<div className='my-column-ceremony right'><b>Škatulata batulata</b></div>
+					<div className='my-column-ceremony right'><b>"Škatulata batulata" - find your seat</b></div>
 				</div>
 				<div className='my-row'>
 					<div className='my-column-ceremony left'><b>16:15</b></div>
-					<div className='my-column-ceremony right'><b>Volná zábava a focení novomanželů</b></div>
+					<div className='my-column-ceremony right'><b>Free entertainment and photo shoot of the newlyweds</b></div>
 				</div>
 				<div className='my-row'>
 					<div className='my-column-ceremony left'><b>18:00</b></div>
-					<div className='my-column-ceremony right'><b>Tanec novomanželů</b></div>
+					<div className='my-column-ceremony right'><b>The Newlyweds' dancing</b></div>
 				</div>
-				<br/>
+				<br />
 			</div>
 		</div>
 	);

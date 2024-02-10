@@ -1,11 +1,12 @@
 import React from 'react';
 import Invitation from './invitation';
+import InvitationEng from './invitation-eng';
 import Ceremony from './ceremony';
+import CeremonyEng from './ceremony-eng';
 import CeremonyLunch from './ceremonyLunch';
-import Program from './program';
+import CeremonyLunchEng from './ceremonyLunch-eng';
 import Chalet from './chalet';
 import Parking from './parking';
-import TravelService from './travelService';
 import Catering from './catering';
 import Trips from './trips';
 import './style.css';
@@ -14,20 +15,22 @@ const Content = ({ tabId, tabName, tabLink }) => {
 	const renderContent = (param) => {
 		switch (param) {
 			case 1:
-				return <Ceremony />;
+				return <InvitationEng />;			
 			case 2:
-				return <CeremonyLunch />;
+				return <Ceremony />;
 			case 3:
-				return <Program />;
+				return <CeremonyEng />;
 			case 4:
-				return <Chalet />;
+				return <CeremonyLunch />;
 			case 5:
-				return <Parking />;
+				return <CeremonyLunchEng />;
 			case 6:
-				return <TravelService />;
+				return <Chalet />;
 			case 7:
-				return <Catering />;
+				return <Parking />;
 			case 8:
+				return <Catering />;
+			case 9:
 				return <Trips />;
 			default:
 				return <Invitation />;

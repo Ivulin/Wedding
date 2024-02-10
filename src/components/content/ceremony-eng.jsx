@@ -6,12 +6,12 @@ const Ceremony = () => {
 	return (
 		<div className='inner-container center scroll-y'>
 			<div className='title'>
-				<p>Křížova vila v Žatci</p>
+				<p>Křížova vila in Žatec</p>
 			</div>
 			<div className='info'>
 				<div className='my-row'>
-					<h5><b>Začátek obřadu v 11:00</b></h5>
-					<h6>(Dostavte se prosím alespoň 15 min před začátkem obřadu.)</h6>
+					<h5><b>The Wedding ceremony starts at 11:00</b></h5>
+					<h6>(Please be on the place 15 min before start itself.)</h6>
 				</div>
 			</div>
 			<div className="galery">
@@ -27,8 +27,8 @@ const Ceremony = () => {
 				</div>
 			</div>
 			<div className='info'>
-				<div className='my-row'>Po obřadu bude následovat focení v zahradách/interiérech Křížovy vily (záleží na počasí).</div>
-				<div className='my-row'>Doporučený dresscode: <b>SEMI FORMAL</b></div>
+				<div className='my-row'>Photoshooting will be in the garden of Křížova vila or inside (It depends in the weather).</div>
+				<div className='my-row'>Dresscode: <b>SEMI FORMAL</b></div>
 			</div>
 		</div>
 	);

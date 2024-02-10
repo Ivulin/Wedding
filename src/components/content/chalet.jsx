@@ -11,7 +11,7 @@ const Chalet = () => {
 				<p><a href='https://www.belvilla.co.uk/AT-5741-92?utm_medium=referral-l&utm_source=copylink&utm_campaign=sitebutton' target="_blank" rel="noreferrer" >Neukirchen am Großvenediger Salzburg</a></p>
 			</div>
 			<div className='title'>
-				<b>29.4. - 3.5.</b>
+				<b>29.4. - 3.5.2024</b>
 			</div>
 			<div className='galery'>
 				<Carousel variant='dark'>
@@ -28,11 +28,11 @@ const Chalet = () => {
 			<div className='info'>
 				<div className='my-row'>
 					<div className='my-column left'><b>Check-in:</b></div>
-					<div className='my-column right'>??:??</div>
+					<div className='my-column right'>16:00-18:00</div>
 				</div>
 				<div className='my-row'>
 					<div className='my-column left'><b>Check-out</b></div>
-					<div className='my-column right'>??:??</div>
+					<div className='my-column right'>08:00-09:00</div>
 				</div>
 			</div>
 			<div className='facilities'>
