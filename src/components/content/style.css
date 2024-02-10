@@ -600,8 +600,40 @@
         padding: 1vh 2vw 1vh 2vw;
     }
 
-    .link_icon {
-        padding: 1vh 0.5vw 1vh 0.5vw;
-        font-size: medium;
+    .catering-title {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 4vh;
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .small-title {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 3vh;
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .link-text {
+        font-size: 2vh;
+    }
+
+    .my-column-ceremony {
+        width: 50%;
+        float: left;
+        padding: 0.5vh 2% 0.5vh 0.5vw;
+    }
+
+    .warning {
+        color: #ff0000bb;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .item-child{
+        padding: 0.5vh 2% 0.5vh 0.5vw;
     }
 }
