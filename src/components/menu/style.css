@@ -17,7 +17,7 @@
 		text-decoration: none;
 		color: antiquewhite;
 		font-weight: bold;
-		font-size: 4vh;
+		font-size: 2vh;
 	}
 
 	.tab+.tab {
@@ -54,7 +54,7 @@
 		text-decoration: none;
 		color: antiquewhite;
 		font-weight: bold;
-		font-size: 4vh;
+		font-size: 2vh;
 	}
 
 	.tab.active {
