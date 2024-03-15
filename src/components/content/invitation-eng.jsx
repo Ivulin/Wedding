@@ -13,7 +13,7 @@ const Invitation = () => {
 			<div className='invitation-body-eng'>
 				<p>With joy and love, our news we share.</p>
 				<p>A single sentence, sweet and fair:</p>
-				<h2>„We're getting married!"</h2>
+				<h3>„We're getting married!"</h3>
 				<p>But for now, we'll wait and take our time.</p>
 				<p>In April, our weddding plans will climb.</p>
 				<p><b>Křížova vila</b> our chosen place.</p>

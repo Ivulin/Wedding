@@ -17,7 +17,7 @@
 		text-decoration: none;
 		color: antiquewhite;
 		font-weight: bold;
-		font-size: 2vh;
+		font-size: 4vh;
 	}
 
 	.tab+.tab {
@@ -43,6 +43,7 @@
 		width: 100vw;
 		padding-left: 2vw;
 		padding-right: 2vw;
+		margin: 1vh 0.5vw 1vh 0.5vw;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	}
 
@@ -53,7 +54,7 @@
 		text-decoration: none;
 		color: antiquewhite;
 		font-weight: bold;
-		font-size: 2vh;
+		font-size: 4vh;
 	}
 
 	.tab.active {
@@ -82,7 +83,7 @@
 		right: 2vw;
 		top: 0vh;
 		position: absolute;
-		font-size: 2vh;
+		font-size: 4vh;
 	}
 
 	.tabs.responsive {
