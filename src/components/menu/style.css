@@ -54,7 +54,7 @@
 		text-decoration: none;
 		color: antiquewhite;
 		font-weight: bold;
-		font-size: 2vh;
+		font-size: 4vh;
 	}
 
 	.tab.active {
@@ -101,7 +101,7 @@
 		background-color: white;
 		color: rgb(43, 14, 0);
 		font-weight: bold;
-		margin-right: 5vw;
+		margin-right: 10vw;
 	}
 
 	.tabs.responsive a {
