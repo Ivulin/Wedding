@@ -318,10 +318,20 @@
         font-size: 2vh;
     }
 
-    .my-column-ceremony {
-        width: 50%;
-        float: left;
-        padding: 0.5vh 2% 0.5vh 0.5vw;
+    .my-column-time {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 3vh;
+    }
+
+    .my-column-event{
+        font-family: 'Monotype Corsiva';
+        font-size: 3vh;
+    }
+
+    .my-column-description{
+        font-family: 'Monotype Corsiva';
+        font-size: 2vh;
     }
 
     .warning {
@@ -560,12 +570,6 @@
         padding: 0.5vh;
     }
 
-    .my-column-ceremony {
-        width: 50%;
-        float: left;
-        padding: 0.5vh 2% 0.5vh 0.5vw;
-    }
-
     .left {
         text-align: right;
     }
@@ -638,10 +642,20 @@
         font-size: 2vh;
     }
 
-    .my-column-ceremony {
-        width: 50%;
-        float: left;
-        padding: 0.5vh 2% 0.5vh 0.5vw;
+    .my-column-time {
+        font-family: 'Monotype Corsiva';
+        font-weight: 600;
+        font-size: 3vh;
+    }
+
+    .my-column-event{
+        font-family: 'Monotype Corsiva';
+        font-size: 3vh;
+    }
+
+    .my-column-description{
+        font-family: 'Monotype Corsiva';
+        font-size: 2vh;
     }
 
     .warning {

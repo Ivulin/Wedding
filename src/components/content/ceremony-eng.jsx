@@ -27,7 +27,7 @@ const Ceremony = () => {
 				</div>
 			</div>
 			<div className='info'>
-				<div className='my-row'>Photoshooting will be in the garden of Křížova vila or inside (It depends in the weather).</div>
+				<div className='my-row'>Photo shoot will be held in the garden of "Křížova vila" or inside of the villa (It depends in the weather).</div>
 				<div className='my-row'>Dresscode: <b>SEMI FORMAL</b></div>
 			</div>
 		</div>

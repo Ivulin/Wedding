@@ -15,7 +15,6 @@ const CeremonyLunch = () => {
 						<img id='image_1'
 							className="image-slide"
 							src="https://www.orlojzatec.cz/wp-content/uploads/2022/05/restaurace-u-orloje-zatec10.jpg"
-							srcset="https://www.orlojzatec.cz/wp-content/uploads/2022/05/restaurace-u-orloje-zatec10.jpg 900w, https://www.orlojzatec.cz/wp-content/uploads/2022/05/restaurace-u-orloje-zatec10-300x190.jpg 300w, https://www.orlojzatec.cz/wp-content/uploads/2022/05/restaurace-u-orloje-zatec10-768x486.jpg 768w, https://www.orlojzatec.cz/wp-content/uploads/2022/05/restaurace-u-orloje-zatec10-705x447.jpg 705w"
 							alt="restaurace a minipivovar U Orloje Žatec"
 						/>
 					</Carousel.Item>
@@ -24,7 +23,6 @@ const CeremonyLunch = () => {
 							className="image-slide"
 							src="https://www.orlojzatec.cz/wp-content/uploads/2022/05/minipivovar-u-orloje-zatec01.jpg"
 							alt="restaurace a minipivovar U Orloje Žatec"
-							srcset="https://www.orlojzatec.cz/wp-content/uploads/2022/05/minipivovar-u-orloje-zatec01.jpg 900w, https://www.orlojzatec.cz/wp-content/uploads/2022/05/minipivovar-u-orloje-zatec01-300x190.jpg 300w, https://www.orlojzatec.cz/wp-content/uploads/2022/05/minipivovar-u-orloje-zatec01-768x486.jpg 768w, https://www.orlojzatec.cz/wp-content/uploads/2022/05/minipivovar-u-orloje-zatec01-705x447.jpg 705w"
 						/>
 					</Carousel.Item>
 					<Carousel.Item key='image_3'>
@@ -32,7 +30,6 @@ const CeremonyLunch = () => {
 							className="image-slide"
 							src="https://www.orlojzatec.cz/wp-content/uploads/2022/05/pivovarska-zahrada-u-orloje-zatec09.jpg"
 							alt="restaurace a minipivovar U Orloje Žatec"
-							srcset="https://www.orlojzatec.cz/wp-content/uploads/2022/05/pivovarska-zahrada-u-orloje-zatec09.jpg 900w, https://www.orlojzatec.cz/wp-content/uploads/2022/05/pivovarska-zahrada-u-orloje-zatec09-300x190.jpg 300w, https://www.orlojzatec.cz/wp-content/uploads/2022/05/pivovarska-zahrada-u-orloje-zatec09-768x486.jpg 768w, https://www.orlojzatec.cz/wp-content/uploads/2022/05/pivovarska-zahrada-u-orloje-zatec09-705x447.jpg 705w"
 						/>
 					</Carousel.Item>
 					<Carousel.Item key='image_4'>
@@ -40,7 +37,6 @@ const CeremonyLunch = () => {
 							className="image-slide"
 							src="https://www.orlojzatec.cz/wp-content/uploads/2024/01/zatecky-pivovar-01.jpg"
 							alt="restaurace a minipivovar U Orloje Žatec"
-							srcset="https://www.orlojzatec.cz/wp-content/uploads/2024/01/zatecky-pivovar-01.jpg 900w, https://www.orlojzatec.cz/wp-content/uploads/2024/01/zatecky-pivovar-01-300x190.jpg 300w, https://www.orlojzatec.cz/wp-content/uploads/2024/01/zatecky-pivovar-01-768x486.jpg 768w, https://www.orlojzatec.cz/wp-content/uploads/2024/01/zatecky-pivovar-01-705x447.jpg 705w"
 						/>
 					</Carousel.Item>
 				</Carousel>
@@ -55,55 +51,49 @@ const CeremonyLunch = () => {
 			<div className='title'>
 				<p>Wedding program</p>
 			</div>
-			<div className='info center'>
+			<div className='info center'>				
 				<div className='my-row'>
-					<p>(The Newlyweds have the right to change the program.)</p>
+					<div className='my-column-time'><b>11:00</b></div>
+					<div className='my-column-event'>Wedding Ceremony</div>
 				</div>
 				<div className='my-row'>
-					<div className='my-column-ceremony left'><b>11:00</b></div>
-					<div className='my-column-ceremony right'><b>Wedding Ceremony</b></div>
+					<div className='my-column-time'><b>11:30</b></div>
+					<div className='my-column-event'>Photo shoot</div>
 				</div>
 				<div className='my-row'>
-					<div className='my-column-ceremony left'><b>11:30</b></div>
-					<div className='my-column-ceremony right'><b>Photoshooting</b></div>
+					<div className='my-column-time'><b>13:00</b></div>
+					<div className='my-column-event'>Wedding lunch</div>
+					<div className='my-column-description'></div>
+					<div className='my-column-description'>Beef broth with meat, noodles and liver dumplings</div>
+					<div className='my-column-description'></div>
+					<div className='my-column-description'>Roast sirloin in sour cream sauce with dumpling</div>
 				</div>
 				<div className='my-row'>
-					<div className='my-column-ceremony left'><b>13:00</b></div>
-					<div className='my-column-ceremony right'><b>Wedding lunch</b></div>
+					<div className='my-column-time'><b>14:30</b></div>
+					<div className='my-column-event'>Cutting the Wedding cake</div>
+					<div className='my-column-description'></div>
+					<div className='my-column-description'>(served with coffee)</div>
 				</div>
 				<div className='my-row'>
-					<div className='my-column-ceremony left'></div>
-					<div className='my-column-ceremony right'>Beef broth with meat, noodles and liver dumplings</div>
+					<div className='my-column-time'><b>15:30</b></div>
+					<div className='my-column-event'>Throwing a wedding bouquet</div>
 				</div>
 				<div className='my-row'>
-					<div className='my-column-ceremony left'></div>
-					<div className='my-column-ceremony right'>Roast sirloin in sour cream sauce with dumpling</div>
+					<div className='my-column-time'><b>16:00</b></div>
+					<div className='my-column-event'>Find your seat game</div>
 				</div>
 				<div className='my-row'>
-					<div className='my-column-ceremony left'><b>14:30</b></div>
-					<div className='my-column-ceremony right'><b>Cutting the Wedding cake</b></div>
+					<div className='my-column-time'><b>16:15</b></div>
+					<div className='my-column-event'>Free entertainment and photo shoot of the newlyweds</div>
 				</div>
 				<div className='my-row'>
-					<div className='my-column-ceremony left'></div>
-					<div className='my-column-ceremony right'>(served with coffee)</div>
-				</div>
-				<div className='my-row'>
-					<div className='my-column-ceremony left'><b>15:30</b></div>
-					<div className='my-column-ceremony right'><b>Throwing a wedding bouquet</b></div>
-				</div>
-				<div className='my-row'>
-					<div className='my-column-ceremony left'><b>16:00</b></div>
-					<div className='my-column-ceremony right'><b>"Škatulata batulata" - find your seat</b></div>
-				</div>
-				<div className='my-row'>
-					<div className='my-column-ceremony left'><b>16:15</b></div>
-					<div className='my-column-ceremony right'><b>Free entertainment and photo shoot of the newlyweds</b></div>
-				</div>
-				<div className='my-row'>
-					<div className='my-column-ceremony left'><b>18:00</b></div>
-					<div className='my-column-ceremony right'><b>The Newlyweds' dancing</b></div>
+					<div className='my-column-time'><b>18:00</b></div>
+					<div className='my-column-event'>The Newlyweds' dancing</div>
 				</div>
 				<br />
+				<div className='my-row'>
+					<div className='my-column-description'>The Newlyweds have the rights to change the program.</div>
+				</div>
 			</div>
 		</div>
 	);

@@ -18,8 +18,6 @@ const Invitation = () => {
 				<p>In April, our weddding plans will climb.</p>
 				<p><b>Křížova vila</b> our chosen place.</p>
 				<p><b>In April 27th</b> we'll embrace.</p>
-				<p>It's not must, but we're excited for sure,</p>
-				<p>to say our vows and so much more.</p> 
 			</div>
 		</div>
 	);
