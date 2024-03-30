@@ -31,7 +31,7 @@ const Catering = () => {
 				<div className='my-column-time'>Obchody ve městě Neukirchen am Großvenediger:</div>
 				<div className='my-column-description'><a href="https://maps.app.goo.gl/PUZikaK7gFnmKwrf7"><img alt="BILLA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Billa-Logo.svg/107px-Billa-Logo.svg.png"/></a></div>
 				<br/>
-				<div className='my-column-description'><a href="https://maps.app.goo.gl/pNpWcJDbKFF2hCL2A"><img alt="BILLA" src="https://icon2.cleanpng.com/20180712/rq/kisspng-spar-sterreichische-warenhandels-ag-logo-busines-spar-5b4821d81093e3.7047990115314539120679.jpg"/></a></div>
+				<div className='my-column-description'><a href="https://maps.app.goo.gl/pNpWcJDbKFF2hCL2A"><img alt="BILLA" src="https://thespargroup.com/wp-content/uploads/photo-gallery/SPAR_Vertical_Logo.jpeg?bwg=1544795791"/></a></div>
 			</div>
 		</div>
 	);
