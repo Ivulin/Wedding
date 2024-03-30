@@ -38,7 +38,6 @@
 @media screen and (orientation: portrait) {
 	.tabs {
 		top: 0vh;
-		position: absolute;
 		display: block;
 		justify-content: center;
 		width: 100vw;
@@ -82,7 +81,6 @@
 		color: antiquewhite;
 		right: 2vw;
 		top: 0vh;
-		position: absolute;
 		font-size: 4vh;
 		line-height: 4vh;
 	}
@@ -109,8 +107,5 @@
 		float: none;
 		display: block;
 		text-align: left;
-	}
-	.tabs .icon {
-		display: none;
 	}
 }
