@@ -7,7 +7,7 @@ const CeremonyLunch = () => {
 	return (
 		<div className='inner-container center scroll-y'>
 			<div className='title'>
-				<p>Reastaurace Orloj v Žatci</p>
+				<p>Restaurace Orloj v Žatci</p>
 			</div>
 			<div className="galery">
 				<Carousel variant='dark'>
