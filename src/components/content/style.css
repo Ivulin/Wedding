@@ -305,6 +305,11 @@
         margin-bottom: 2vh;
     }
 
+    .catering-item{
+        font-family: 'Monotype Corsiva';
+        font-size: 2.5vh
+    }
+
     .small-title {
         font-family: 'Monotype Corsiva';
         font-weight: 600;
@@ -343,6 +348,7 @@
     .item-child {
         padding: 0.5vh 2% 0.5vh 0.5vw;
     }
+
 }
 
 
@@ -666,5 +672,10 @@
 
     .item-child {
         padding: 0.5vh 2% 0.5vh 0.5vw;
+    }
+
+    .catering-item{
+        font-family: 'Monotype Corsiva';
+        font-size: 2.5vh
     }
 }
